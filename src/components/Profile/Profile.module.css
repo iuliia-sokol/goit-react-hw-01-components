@@ -1,0 +1,78 @@
+p {
+  margin: 0;
+}
+
+.profile {
+  max-width: 30vw;
+  padding: 48px 16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  background-color: hsla(215, 98%, 79%, 0.3);
+  border-radius: 24px;
+  border: 2px solid blanchedalmond;
+  box-shadow: 10px 12px 12px 0px #cab1b14d;
+}
+
+.description {
+  display: flex;
+  row-gap: 16px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.avatar {
+  display: inline-flex;
+  width: 40%;
+  border-radius: 50%;
+  background-color: hsla(215, 98%, 79%, 0.4);
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.name {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.tag {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+.location {
+  font-size: 24px;
+}
+.stats {
+  width: 100%;
+  margin-bottom: 0;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+
+  /* flex-wrap: wrap; */
+}
+.stats > li {
+  width: calc(100% / 3 - 32px);
+  padding: 12px;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+}
+
+.label {
+  font-size: 20px;
+  font-weight: bolder;
+}
+.quantity {
+  font-size: 18px;
+}
