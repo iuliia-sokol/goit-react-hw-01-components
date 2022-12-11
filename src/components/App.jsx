@@ -1,3 +1,5 @@
+import css from './App.module.css';
+
 import { Profile } from './Profile/Profile';
 import user from './Profile/user';
 
@@ -12,17 +14,7 @@ import transactions from './TransactionHistory/transactions';
 
 export const App = () => {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101',
-        padding: '40px',
-      }}
-    >
+    <div className={css.container}>
       <Profile
         username={user.username}
         tag={user.tag}

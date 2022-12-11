@@ -1,0 +1,29 @@
+tr {
+  display: flex;
+  border-radius: 8px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+tr:nth-child(odd) {
+  background-color: hsla(215, 98%, 79%, 0.3);
+}
+
+td {
+  display: flex;
+  min-height: 40px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  width: calc(100% / 3);
+  font-size: 18px;
+}
+
+.transactionHistoryTableType {
+  justify-content: flex-start;
+}
+
+.transactionHistoryTableCurrency {
+  justify-content: flex-end;
+}
