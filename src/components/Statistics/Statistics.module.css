@@ -1,5 +1,5 @@
 .statistics {
-  margin-top: 16px;
+  margin-top: 32px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -11,6 +11,8 @@
   padding: 48px 16px;
 }
 .title {
+  font-size: 36px;
+  text-transform: uppercase;
   margin: 0;
 }
 .statList {
